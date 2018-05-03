@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "URL Shortener Microservice",
   "main": "index.js",
+  "engines": {
+    "node": "8.10.0",
+    "npm": "6.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js"
@@ -16,6 +20,7 @@
   "bugs": {
     "url": "https://github.com/amandarfernandes/fcc-url-shortener/issues"
   },
+  
   "homepage": "https://github.com/amandarfernandes/fcc-url-shortener#readme",
   "dependencies": {
     "express": "^4.16.3",
