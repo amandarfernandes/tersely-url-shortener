@@ -1,0 +1,29 @@
+{
+  "name": "fcc-url-shortener",
+  "version": "1.0.0",
+  "description": "URL Shortener Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amandarfernandes/fcc-url-shortener.git"
+  },
+  "author": "Amanda Fernandes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amandarfernandes/fcc-url-shortener/issues"
+  },
+  "homepage": "https://github.com/amandarfernandes/fcc-url-shortener#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.0.17",
+    "shortid": "^2.2.8",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
